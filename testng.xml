@@ -2,8 +2,7 @@
 <suite name="Test-class Suite">
     <test name="Test-class test 1">
         <classes>
-            <class name="com.iaditya.testng.ParentTest" />
-            <class name="com.iaditya.testng.DependentWithoutInheritingTest" />
+            <class name="com.iaditya.testngfactory.DependencyTestFactory" />
         </classes>
     </test>
 </suite>
