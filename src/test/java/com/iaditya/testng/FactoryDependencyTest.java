@@ -1,5 +1,6 @@
 package com.iaditya.testng;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 /**
@@ -30,6 +31,7 @@ public class FactoryDependencyTest {
  
     @Test
     public void testMethodTwo() {
+    	Assert.fail();
         System.out.println("Test method two with param values: " + this.param);
     }
     
