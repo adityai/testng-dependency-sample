@@ -31,8 +31,8 @@ public class FactoryDependencyTest {
  
     @Test
     public void testMethodTwo() {
-    	Assert.fail();
         System.out.println("Test method two with param values: " + this.param);
+        this.param = 1000 * this.param;
     }
     
 }
